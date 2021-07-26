@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.formLogin{
+    width: 25rem;
+    margin: 5rem auto 0;
+    border: 2px solid;
+    border-radius: 1rem 2rem;
+    background: #8e5abd;    
+}
+
+.formLogin fieldset{
+    margin-top: .5rem;
+    padding: 0 2.5rem;
+    
+}
+
+.formLogin legend{
+    background: #e54d4d;
+    display: inline-block;
+    padding: .5rem;
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.formLogin label{
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#user, #pass, .btn{
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+#user, #pass{
+    border: .3rem solid white;
+    margin-bottom: 1.5rem;
+    background: rgb(2, 250, 105)
+}
+
+#user:focus, #pass:focus{
+    background: rgb(1, 202, 252);
+    margin-bottom: 1.5rem;
+}
+
+.btn{
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    background: #fff;
+    text-transform: uppercase
+}
+
+.btn:hover{
+    background: rgb(1, 202, 252);
+    border: .1rem solid;
+}
